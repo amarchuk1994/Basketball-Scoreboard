@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "container">
+        <div class = "center">
+            <h3> HOME </h3>
+            <h2 id = "score-home"> 0 </h2>
+                <div class = "buttons">
+                    <button id = "btn-1" onclick = "add1()"> +1 </button>
+                    <button id = "btn-2" onclick = "add2()"> +2 </button>
+                    <button id = "btn-3" onclick = "add3()"> +3 </button>
+                </div>
+        </div>
+
+        <button id = "reset" onclick = "reset()"> NEW GAME</button>
+
+        <div class = "center">
+            <h3> GUEST </h3>
+            <h2 id = "score-guest"> 0 </h2>
+                <div class = "buttons">
+                    <button id = "btn-4" onclick = "add1_G()"> +1 </button>
+                    <button id = "btn-5" onclick = "add2_G()"> +2 </button>
+                    <button id = "btn-6" onclick = "add3_G()"> +3 </button>
+                </div>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>

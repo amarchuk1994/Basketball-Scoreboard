@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Scoreboard';
+    src: url('/font/scoreboard.ttf');
+}
+
+body {
+    background-color: #1B244A;
+    margin: 0;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 45px;
+}
+
+#score-guest, #score-home {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    color: #F94F6D;
+    font-family: 'Scoreboard';
+    font-size: 90px;
+    text-align: center;
+    margin: 0;
+    padding-top: 50px;
+    border-radius: 10%;
+}
+
+.buttons {
+    margin-top: 20px;
+    color: #9AABD8;
+    display: flex;
+    gap: 10px;
+}
+
+#btn-1, #btn-2, #btn-3, #btn-4, #btn-5, #btn-6 {
+    font-family: 'Scoreboard';
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+}
+
+#reset {
+    font-family: 'Scoreboard';
+    font-size: 16px;
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    margin-top: 215px;
+}
+
+#btn-1:hover,
+#btn-2:hover,
+#btn-3:hover,
+#btn-4:hover,
+#btn-5:hover,
+#btn-6:hover,
+#reset:hover {
+    background-color: #F94F6D;
+    color: black;
+}
